@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="popup.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+<div class="vish">
+    <div class="ht"><h1 >Enable handpose model</h1></div>
+    <div class="button">
+
+        <label class="toggle">
+            <input type="checkbox" id="toggleSwitch">
+            <span class="slider"></span>
+        </label>
+
+    </div>
+
+</div>
+<div class="main">
+
+    <div class="first">
+        <div class="se">
+            <h1>Sensitivity:</h1>
+            <input id="sensitivity" class="in" type="range" min="1" max="10" value="5"/>
+        </div>
+        <div class="s ">
+            <h1>index-Thumb:</h1>
+            <input id="index" class="in" type="range" min="1" max="40" value="27"/>
+        </div>
+        <div class="s">
+            <h1>Middle-Thumb:</h1>
+            <input id="middle" class="in" type="range" min="1" max="40" value="25"/>
+        </div>
+        <div class="s">
+            <h1>Ring-Thumb:</h1>
+            <input id="ring" class="in" type="range" min="1" max="40" value="25"/>
+        </div>
+        <div class="s">
+            <h1>Pinky-Thumb:</h1>
+            <input id="pinky" class="in" type="range" min="1" max="40" value="25" />
+        </div>
+        <button  id="done" >done</button>
+    </div>
+    <p  class="domain"  id="output"></p>
+    <p id="message"></p>
+
+</div>
+
+
+<script src="popup.js"></script>
+</body>
+</html>
