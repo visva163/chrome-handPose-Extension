@@ -114,7 +114,7 @@ function displayDomainCategory(category) {
 }
 
 async function detectDomain(url) {
-    const apiKey = "AIzaSyCX1wzDyckiShnxj6TtB0CW12DuljKLIIg";
+    const apiKey = "ENTER__YOUR__API__KEY";
     const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
     const prompt = `Classify this website URL into one of these categories: Music, Video, Article, etc... URL: ${url}. Return only one category name as the output.`;
